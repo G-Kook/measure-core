@@ -1,8 +1,8 @@
-c library for core functionalities in device measurement, such as vnand, dram, etc.
+c library for core functionalities in device measurement, such as vnand, dram, etc.\n
 Copyright 2026, Geon Kook
 
 [modules]
-** gk/gkstr: fixed-sized string type for easy use of strings.
+** gk/gkstr: fixed-sized string type for easy use of strings.\n
 ** gk/gkio: data export, logging functionalities.
 ** gk/gkdat: simple 3-dimensional data handeling tool.
 ** gk/gktml: pad ID - pin ID mapping system with tags.
