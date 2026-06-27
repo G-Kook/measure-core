@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gk">
+      <UniqueIdentifier>{7fe20748-f90f-4a54-9753-0b470d635a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device">
+      <UniqueIdentifier>{4e82bde1-328b-4345-9261-2a311231706c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="device\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="device\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="gk\Header Files">
+      <UniqueIdentifier>{b77f53e8-890b-4e48-af91-6bbed3adef29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gk\Source Files">
+      <UniqueIdentifier>{9b547977-698b-49c9-beaf-807c01f1a260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="demo">
+      <UniqueIdentifier>{69f09128-f129-4a86-99e6-b8e518fb8d3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gk\include\gk_core.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gk\include\gk_specs_addon.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gk\include\gkdat.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gk\include\gkio.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gk\include\gkstr.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gk\include\gktml.h">
+      <Filter>gk\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="device\device_base.h">
+      <Filter>device\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="specs_dummy.h">
+      <Filter>demo</Filter>
+    </ClInclude>
+    <ClInclude Include="device\gen10.h">
+      <Filter>device\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="device\gen11.h">
+      <Filter>device\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gk\src\gk_core.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gk\src\gk_specs_addon.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gk\src\gkdat.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gk\src\gkio.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gk\src\gkstr.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gk\src\gktml.c">
+      <Filter>gk\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="device\device_base.c">
+      <Filter>device\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="specs_dummy.c">
+      <Filter>demo</Filter>
+    </ClCompile>
+    <ClCompile Include="device\gen10.c">
+      <Filter>device\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="device\gen11.c">
+      <Filter>device\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

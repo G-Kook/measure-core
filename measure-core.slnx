@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="measure-core/measure-core.vcxproj" Id="86515624-d980-48ba-9d2d-caf9917207f7" />
+</Solution>
