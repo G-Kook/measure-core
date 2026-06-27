@@ -1,5 +1,5 @@
 c library for core functionalities in device measurement, such as vnand, dram, etc.<br>
-Copyright 2026, Geon Kook
+*Copyright 2026, Geon Kook*
 
 # MODULE DESCRIPTION
 
